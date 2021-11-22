@@ -1,5 +1,5 @@
 # speech-emotion-recognition [WIP]
-SDAIA Bootcamp project 5 - unsupervised natural language processing.
+SDAIA Bootcamp project 5 - Deep Learning.
 
 ## Table of Contents
 
