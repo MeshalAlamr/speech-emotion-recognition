@@ -13,8 +13,10 @@ Modality (01 = full-AV, 02 = video-only, 03 = audio-only).
 <br> Repetition (01 = 1st repetition, 02 = 2nd repetition).
 <br> Actor (01 to 24. Odd numbered actors are male, even numbered actors are female).
 
-So, here's an example of an audio filename. 02-01-06-01-02-01-12.wav This means the meta data for the audio file is:
-<br> Video-only (02)
+So, here's an example of an audio filename. 02-01-06-01-02-01-12.wav
+<br> This means the meta data for the audio file is:
+
+Video-only (02)
 <br> Speech (01)
 <br> Fearful (06)
 <br> Normal intensity (01)
@@ -24,7 +26,8 @@ So, here's an example of an audio filename. 02-01-06-01-02-01-12.wav This means 
 
 ## Crema:
 The third component is responsible for the emotion label:
-<br> SAD - sadness;
+
+SAD - sadness;
 <br> ANG - angry;
 <br> DIS - disgust;
 <br> FEA - fear;
@@ -37,7 +40,7 @@ Very similar to Crema - label of emotion is contained in the name of file.
 ## Savee:
 The audio files in this dataset are named in such a way that the prefix letters describes the emotion classes as follows:
 
-<br> 'a' = 'anger'
+'a' = 'anger'
 <br> 'd' = 'disgust'
 <br> 'f' = 'fear'
 <br> 'h' = 'happiness'
